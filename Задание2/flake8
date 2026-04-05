@@ -1,0 +1,11 @@
+[flake8]
+max-line-length = 100
+exclude =
+    .git,
+    __pycache__,
+    .pytest_cache,
+    allure-results,
+    allure-report
+ignore = E203, W503
+per-file-ignores =
+    tests/conftest.py: F401
